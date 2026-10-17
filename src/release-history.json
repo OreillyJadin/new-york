@@ -1,0 +1,430 @@
+[
+  {
+    "id": "carbone",
+    "item": "Carbone (Resy)",
+    "target": "Sat Jan 2 2027 · 7:00pm · 2 people",
+    "release_rule": "Resy's Carbone listing states reservations open up to 30 days in advance starting at 10:00 AM ET; a dated first-person account corroborates the rule. No evidence found that the rule changed from 30 days/10:00 AM.",
+    "book_at_et": "2026-12-03T10:00:00-05:00",
+    "sellout_speed": "First-person reports describe prime inventory disappearing within seconds; a 2023 report says tables were gone by 10:01 AM. Exact speed for the Jan 2 two-top is unknown.",
+    "evidence": [
+      {
+        "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-10-16&seats=2",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "Reservations for both lunch and dinner can be made through Resy or via email up to 30 days in advance, starting at 10:00 AM EST."
+      },
+      {
+        "url": "https://www.reddit.com/r/FoodNYC/comments/1924zqe/is_there_anyway_to_get_into_carbone/",
+        "source_date": "2024-01-09",
+        "quote": "Reservations are done 30 days in advance at 10 am If you just go on at 959 you’ll be able to get a res."
+      },
+      {
+        "url": "https://www.hercampus.com/school/u-conn/my-experience-dining-at-carbone-nyc/",
+        "source_date": "2025-03-13",
+        "quote": "When the clock hit 10:00 a.m., I opened the app and refreshed the page. Within seconds, all the reservations were gone except for a tiny blue reservation button remaining."
+      },
+      {
+        "url": "https://www.grubstreet.com/2023/04/impossible-reservations-resx-dorsia-appointment-trader.html",
+        "source_date": "2023-04-24",
+        "quote": "Carbone releases tables at 10 a.m. sharp, 30 days out; Carbone’s tables are gone by 10:01 a.m. sharp, 30 days out."
+      }
+    ],
+    "conclusion_level": "official",
+    "notes": "The release rule is directly stated on Carbone's Resy listing and independently corroborated by dated reporting and first-person accounts. The exact target release is calculated from that rule. Do not treat the seconds/minute anecdotes as a guarantee that every table or this particular slot will disappear at that speed."
+  },
+  {
+    "id": "golden-diner",
+    "item": "Golden Diner (Resy)",
+    "target": "Sat Jan 2 2027 · 11:00am · 2 people",
+    "release_rule": "Resy's Sept. 10, 2026 guide says 30 days ahead at midnight ET, brunch included. The restaurant reserves counter seats and some tables for walk-ins; weekend brunch lines can begin early.",
+    "book_at_et": "2026-12-03T00:00:00-05:00",
+    "sellout_speed": "No verified historical sellout time for the 11:00 AM brunch slot. Resy reports weekend brunch lines beginning as early as 8:00 AM; the restaurant FAQ warns of long waits.",
+    "evidence": [
+      {
+        "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-nyc/",
+        "source_date": "Updated 2026-09-10",
+        "quote": "Reservations Drop: 30 days in advance at midnight, brunch included."
+      },
+      {
+        "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-nyc/",
+        "source_date": "Updated 2026-09-10",
+        "quote": "Yes, but do know that a line starts forming as early as 8 a.m. for weekend brunch."
+      },
+      {
+        "url": "https://www.goldendinerny.com/faq",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "We hold all our counter seats and a handful of tables for walk-in diners."
+      },
+      {
+        "url": "https://www.goldendinerny.com/faq",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "We highly encourage making a reservation through Resy so you can skip the line."
+      },
+      {
+        "url": "https://itsadate.nyc/restaurants/golden-diner-reservations",
+        "source_date": "Undated page; accessed 2026-10-16",
+        "quote": "Resy includes today among the 30 visible dates, so the newest date usually appears 29 calendar days before dining."
+      }
+    ],
+    "conclusion_level": "official",
+    "notes": "The clearest current release statement is Resy's 30-days-at-midnight rule. There is a day-count interpretation conflict: one guide says Resy's 30-date display includes today, making the farthest visible date 29 calendar days away. The date above is the literal 30-calendar-days-before calculation; verify the edge of the Resy calendar on Dec. 2 and again at midnight Dec. 3 rather than treating the alternate inclusive count as a different confirmed restaurant policy."
+  },
+  {
+    "id": "summit",
+    "item": "SUMMIT One Vanderbilt",
+    "target": "Sat Jan 2 2027 · approximately 4:00pm (sunset) · 2 people",
+    "release_rule": "No official fixed advance-sale horizon was found. The official ticket calendar did not make Jan. 2, 2027 selectable in the checked view; no target sunset slot or price was displayed.",
+    "book_at_et": null,
+    "sellout_speed": "One TripAdvisor traveler reported a desired visit day sold out and recommended booking a few days ahead, possibly earlier for sunset. This is a single anecdote, not evidence of how far ahead holiday-week sunset slots sell out.",
+    "evidence": [
+      {
+        "url": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?CG=sum&C=adm",
+        "source_date": "Calendar observed 2026-10-16",
+        "quote": "There are no events available for your current selection."
+      },
+      {
+        "url": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?CG=sum&C=adm",
+        "source_date": "Calendar observed 2026-10-16",
+        "quote": "Starting at $44.00"
+      },
+      {
+        "url": "https://summitov.com/tickets/",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "$3 online processing fee added to each order"
+      },
+      {
+        "url": "https://www.tripadvisor.co.uk/ShowTopic-g60763-i5-k14909022-Summit_One_booking_restaurant_recs-New_York_City_New_York.html",
+        "source_date": "Forum post date not established; accessed 2026-10-16",
+        "quote": "They were sold out and it was the only day I could fit it in. This was a very slow weekend last January so my advice is to book a few days ahead of time, possibly even more in advance if you want sunset."
+      }
+    ],
+    "conclusion_level": "first-hand (single)",
+    "notes": "The disabled calendar dates and empty event response are an unavailable/blocked result for this view, not proof that Jan. 2 is sold out. No sunset price was visible. The official ticket page showed adult admission starting at $44 during the research, but that is not a Jan. 2 sunset quote. Screenshot: /home/ubuntu/nyc-trip/shots/summit-jan-2027-calendar.png.",
+    "last_selectable_date": "2026-12-31",
+    "horizon_evidence": [
+      {
+        "url": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?CG=sum&C=adm",
+        "source_date": "Observed 2026-10-16",
+        "quote": "December 31, 2026",
+        "conclusion_level": "official",
+        "interpretation": "Dec. 31 was selectable, and the inspected October and November calendars also reached Oct. 31 and Nov. 30. The January 2027 calendar showed all dates disabled. Thus Dec. 31 was the last selectable date observed; the month-end cutoff is consistent with batch-style availability, but this one snapshot does not prove a recurring monthly release rule."
+      },
+      {
+        "url": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?CG=sum&C=adm",
+        "source_date": "Observed 2026-10-16",
+        "quote": "3:30 pm +$13; 4:00 pm +$13; 4:30 pm",
+        "conclusion_level": "official",
+        "interpretation": "All three Dec. 31 slots were shown available. The first two displayed a +$13 time surcharge; no surcharge label appeared next to 4:30 pm. The product page separately showed adult admission starting at $44 and a $3 order processing fee, so these rows do not state the final order total."
+      },
+      {
+        "url": "https://www.tripadvisor.co.uk/ShowTopic-g60763-i5-k14909022-Summit_One_booking_restaurant_recs-New_York_City_New_York.html",
+        "source_date": "2024-10-19",
+        "quote": "my advice is to book a few days ahead of time, possibly even more in advance if you want sunset.",
+        "conclusion_level": "first-hand (single)",
+        "interpretation": "This is one traveler's sellout-avoidance advice, not evidence of a rolling release horizon or month-by-month ticket batches."
+      },
+      {
+        "url": "https://info.summitov.com/faq/What-if-I-Want-to-Buy-Tickets-But-the-Date-is-Not-Available-Yet/",
+        "source_date": "Undated; accessed 2026-10-16",
+        "quote": "What if I Want to Buy Tickets But the Date is Not Available Yet?",
+        "conclusion_level": "official",
+        "interpretation": "The official FAQ title addresses unavailable dates, but the retrieved text did not provide a release horizon."
+      }
+    ]
+  },
+  {
+    "id": "rockefeller-rink",
+    "item": "The Rink at Rockefeller Center",
+    "target": "Sat Jan 2 2027 · first morning session · 2 people",
+    "release_rule": "No fixed recurring release date or time was found. Reports show 2023 season tickets were on sale by Oct. 6, 2023; 2024–25 tickets were on sale by Aug. 24–Sep. 25, 2024; and 2025–26 tickets were on sale by Sep. 8, 2025. These are observed announcement dates, not necessarily the exact first-sale date. Whether regular sessions are released in batches is undocumented.",
+    "book_at_et": null,
+    "sellout_speed": "Holiday peak periods are busy, and a 2025 guide notes that some desired sessions sell out and that limited same-day Skate Now tickets may remain. No source established how many days ahead Jan. 2 or other holiday sessions sell out.",
+    "evidence": [
+      {
+        "url": "https://www.newyorkled.com/tickets-now-on-sale-for-the-rink-at-rockefeller-center-2023-fall-season/",
+        "source_date": "2023-10-06",
+        "quote": "The world’s most famous ice-skating rink is returning to Rockefeller Center for its 87th season! Those seeking to get into the holiday spirit early will be able to hit the ice starting October 21 and tickets are on sale now!"
+      },
+      {
+        "url": "https://www.mycentraljersey.com/story/entertainment/events/2024/08/24/rockefeller-center-ice-skating-christmas-tree-tickets-are-on-sale-now/74849684007/",
+        "source_date": "2024-08-24",
+        "quote": "Tickets for the 2024-25 season are on sale now."
+      },
+      {
+        "url": "https://newyorkloveskids.com/tickets-now-on-sale-for-the-2025-2026-season-at-the-rink-at-rockefeller-center/",
+        "source_date": "2025-09-08",
+        "quote": "tickets for the 2025–2026 season are now officially on sale."
+      },
+      {
+        "url": "https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center",
+        "source_date": "Page observed 2026-10-16",
+        "quote": "The Rink is now open for the 2026–2027 season!"
+      },
+      {
+        "url": "https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center",
+        "source_date": "Page observed 2026-10-16",
+        "quote": "Daily: 9 AM – 12 AM"
+      },
+      {
+        "url": "https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center",
+        "source_date": "Page observed 2026-10-16",
+        "quote": "From $22"
+      },
+      {
+        "url": "https://www.timeout.com/newyork/things-to-do/the-rink-at-rockefeller-center-guide",
+        "source_date": "2025-10-06",
+        "quote": "If your desired time is sold out, a limited number of immediate-access Skate Now tickets are available at The Rink Box Office each day."
+      }
+    ],
+    "conclusion_level": "secondary guide only",
+    "notes": "The checked official Jan. 2027 calendar showed Jan. 2 disabled and provided no session times or date-specific price. Do not call it sold out. The current official overview lists daily operating hours from 9 AM to midnight and prices from $22, but that does not establish the first session time; the earlier 8 AM assumption is unsupported by the current page. Screenshot: /home/ubuntu/nyc-trip/shots/rockefeller-rink-jan-2027-calendar.png.",
+    "last_selectable_date": "2026-12-31",
+    "horizon_evidence": [
+      {
+        "url": "https://www.rockefellercenter.com/buy-tickets/general-skate/choose-date",
+        "source_date": "Observed 2026-10-16",
+        "quote": "Thursday, December 31, 2026",
+        "conclusion_level": "official",
+        "interpretation": "Dec. 31 was selected and offered sessions. The inspected October, November, and December calendars reached Oct. 31, Nov. 30, and Dec. 31 respectively. All January 2027 dates were disabled, making Dec. 31 the last selectable date observed. This month-end cutoff suggests a batch-like display at this snapshot, not a verified recurring release policy; disabled is not proof of sellout."
+      },
+      {
+        "url": "https://www.rockefellercenter.com/buy-tickets/general-skate/choose-date",
+        "source_date": "Observed 2026-10-16",
+        "quote": "Time slot 12-31-2026 07:00 am, $39, available",
+        "conclusion_level": "official",
+        "interpretation": "The first displayed Dec. 31 morning session was 7:00 am at $39. The official overview page's daily hours begin at 9 AM, so the date-specific ticket calendar is the direct evidence for this session."
+      },
+      {
+        "url": "https://www.newyorkled.com/tickets-now-on-sale-for-the-rink-at-rockefeller-center-2023-fall-season/",
+        "source_date": "2023-10-06",
+        "quote": "tickets are on sale now!",
+        "conclusion_level": "secondary guide only",
+        "interpretation": "Reports that the 2023 season was on sale by this date, but does not identify a future-date release cadence."
+      },
+      {
+        "url": "https://www.mycentraljersey.com/story/entertainment/events/2024/08/24/rockefeller-center-ice-skating-christmas-tree-tickets-are-on-sale-now/74849684007/",
+        "source_date": "2024-08-24",
+        "quote": "Tickets for the 2024-25 season are on sale now.",
+        "conclusion_level": "secondary guide only",
+        "interpretation": "Reports the season was on sale by this date, not whether later dates were released in monthly batches or a rolling window."
+      },
+      {
+        "url": "https://newyorkloveskids.com/tickets-now-on-sale-for-the-2025-2026-season-at-the-rink-at-rockefeller-center/",
+        "source_date": "2025-09-08",
+        "quote": "tickets for the 2025–2026 season are now officially on sale.",
+        "conclusion_level": "secondary guide only",
+        "interpretation": "Reports the season was on sale by this date, not a recurring date-specific release rule."
+      }
+    ]
+  },
+  {
+    "id": "din-tai-fung",
+    "item": "Din Tai Fung Times Square",
+    "target": "Fri Jan 1 2027 · 1:00pm · 2 people",
+    "release_rule": "Official FAQ: limited website reservations open at midnight 30 days in advance. The Jan. 1 target therefore opens Dec. 2, 2026 at 12:00 AM ET.",
+    "book_at_et": "2026-12-02T00:00:00-05:00",
+    "sellout_speed": "At the NYC launch, the newly opened month of reservations was fully booked within hours; a later first-person account described reservations vanishing in minutes. That launch rush is historical context, not a forecast for this specific lunch.",
+    "evidence": [
+      {
+        "url": "https://dtf.com/en-us/faqs",
+        "source_date": "Undated FAQ; observed 2026-10-16",
+        "quote": "We release limited reservation slots on our website at midnight, 30 days in advance."
+      },
+      {
+        "url": "https://ny.eater.com/2024/7/3/24189732/din-tai-fung-reservations-first-new-york-location",
+        "source_date": "2024-07-03",
+        "quote": "By 8 p.m., every table made available had been reserved."
+      },
+      {
+        "url": "https://www.nytimes.com/2024/11/05/dining/din-tai-fung-nyc-restaurant-review.html",
+        "source_date": "2024-11-05",
+        "quote": "thousands of hopefuls kept vigil at their laptops to score reservations as they were released, only to watch them vanish in minutes."
+      },
+      {
+        "url": "https://www.yelp.com/questions/din-tai-fung-have-been-trying-to-get-reservations-and-nothing-is-available-ever-is-there-a-certa/lumOgfigLlswHYciuT5BGw",
+        "source_date": "2024-07-20",
+        "quote": "These time slots are literally gone within 10-20 secs from midnight."
+      },
+      {
+        "url": "https://dtf.com/en-us/faqs",
+        "source_date": "Undated FAQ; observed 2026-10-16",
+        "quote": "you are welcome to come in as a walk-in party by joining the walk-in waitlist at receptionist desk"
+      },
+      {
+        "url": "https://ny.eater.com/2024/7/3/24189732/din-tai-fung-reservations-first-new-york-location",
+        "source_date": "2024-07-03",
+        "quote": "Since the New York location doesn’t take walk-ins"
+      }
+    ],
+    "conclusion_level": "first-hand (multiple)",
+    "notes": "The old Eater report describes the opening-period policy; the current official FAQ permits walk-ins through an on-site waitlist. Walk-ins are therefore possible now, but the checked sources do not establish typical wait duration or guarantee seating."
+  },
+  {
+    "id": "river-cafe",
+    "item": "The River Café (OpenTable)",
+    "target": "Sun Jan 3 2027 · 7:00pm · 2 people",
+    "release_rule": "The restaurant says bookings can be made up to one year ahead; no fixed release hour was found. The one-year window for Jan. 3, 2027 began Jan. 3, 2026.",
+    "book_at_et": null,
+    "sellout_speed": "No reliable past-year evidence found for when holiday-weekend dinner tables sell out. In the live OpenTable browser check, Jan. 3, 2027 for two at 7:00 PM returned no visible time-slot list; this is an empty/blocked result, not proof of a sellout.",
+    "evidence": [
+      {
+        "url": "https://rivercafe.com/reservations/",
+        "source_date": "Undated policy page; observed 2026-10-16",
+        "quote": "Bookings can be made up to a year in advance."
+      },
+      {
+        "url": "https://www.opentable.com/r/the-river-cafe-brooklyn",
+        "source_date": "Browser observation 2026-10-16",
+        "quote": "Make a reservation"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/the-river-cafes-new-years-eve-gala--a-night-of-glamour-under-the-brooklyn-bridge-302336547.html",
+        "source_date": "2024-12-20",
+        "quote": "For reservations, please visit our website rivercafe.com or call us directly."
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "The target date's one-year opening date is a calendar calculation, not a published release hour. OpenTable loaded in Chrome, but the selected Jan. 3, 2027 search showed no time slots. No Notify action or booking was attempted."
+  },
+  {
+    "id": "bond-45",
+    "item": "Bond 45 New Year's Eve Celebration Package",
+    "target": "Thu Dec 31 2026 · 6:30pm · $300/person package",
+    "release_rule": "No past-year sale-opening schedule or exact package sellout date/time was found for 2023–2025. The current official page advertises the 2026 event but does not publish a booking release date.",
+    "book_at_et": null,
+    "sellout_speed": "Not found. The official page calls space limited, which is not evidence that or when the package sold out in prior years.",
+    "evidence": [
+      {
+        "url": "https://www.bond45ny.com/new-years-eve/",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "$300 per person, plus tax & gratuity"
+      },
+      {
+        "url": "https://www.bond45ny.com/new-years-eve/",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "New Year's Eve is one of our most popular events of the year, and space is extremely limited."
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "No dated archival source located in this research established when 2023, 2024, or 2025 Bond 45 NYE packages opened or sold out. Do not infer a sellout time from the current marketing copy."
+  },
+  {
+    "id": "losers",
+    "item": "Loser's Eating House cinnamon-roll preorder",
+    "target": "Sat Jan 2 2027 pickup · 30 Vandam St",
+    "release_rule": "Official page says the newsletter drop is usually once a week, Monday or Tuesday; it does not give a fixed send time. No evidence found about a New Year's-week skip or a historical Jan. 2 pickup drop.",
+    "book_at_et": null,
+    "sellout_speed": "A 2026 press report says rolls sell out almost as soon as advertised, but no dated sellout interval or holiday-week example was found.",
+    "evidence": [
+      {
+        "url": "https://www.loserseatinghouse.com/subscribe",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "We announce drops via our newsletter (usually sent once a week, on Monday or Tuesday)."
+      },
+      {
+        "url": "https://www.loserseatinghouse.com/subscribe",
+        "source_date": "Undated page; observed 2026-10-16",
+        "quote": "if there are more left to sell we will post the link on instagram stories"
+      },
+      {
+        "url": "https://www.timeout.com/newyork/news/cinnamon-rolls-are-nycs-latest-dessert-obsession-022426",
+        "source_date": "2026-02-24",
+        "quote": "sell out almost as soon as they’re advertised for pre-order online."
+      }
+    ],
+    "conclusion_level": "official",
+    "notes": "The weekly drop pattern is direct from the business; there is no fixed hour or evidence of a New Year's-week skip. Pickup on Jan. 2 is plausible only if that week's drop includes that date, which remains unknown. No subscription or notification signup was performed."
+  },
+  {
+    "id": "peak",
+    "item": "Peak with Priceless",
+    "target": "Thu Dec 31 2026 · lunch · 2 people",
+    "release_rule": "Official Tao Group page says reservations are available up to 30 days ahead, placing the target at the Dec. 1, 2026 boundary; the official source does not state a release hour. The reported 9:00 AM ET time was not independently verified.",
+    "book_at_et": null,
+    "sellout_speed": "No dated past-year evidence found for how quickly New Year's Eve lunch reservations at Peak sell out.",
+    "evidence": [
+      {
+        "url": "https://taogroup.com/venues/peak-restaurant-new-york/reservations/",
+        "source_date": "Page observed 2026-10-16",
+        "quote": "Reservations available up to 30 days in advance"
+      },
+      {
+        "url": "https://taogroup.com/venues/peak-restaurant-new-york/",
+        "source_date": "Page observed 2026-10-16",
+        "quote": "Fri – Sun | 11:00 am to 2:30 pm"
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "A 30-day window supports Dec. 1 as the date boundary, but not an exact time of day. No NYE lunch sellout report was located."
+  },
+  {
+    "id": "robert",
+    "item": "Robert",
+    "target": "Thu Dec 31 2026 · lunch · 2 people",
+    "release_rule": "NYC Tourism says reservations are accepted up to 30 days ahead, putting the date boundary at Dec. 1, 2026; no release hour was found. The reported midnight ET time was not independently verified.",
+    "book_at_et": null,
+    "sellout_speed": "No dated past-year evidence found for how quickly New Year's Eve lunch tables at Robert sell out.",
+    "evidence": [
+      {
+        "url": "https://www.nyctourism.com/restaurants/robert/",
+        "source_date": "Undated listing; accessed 2026-10-16",
+        "quote": "Reservations are recommended and accepted up to 30 days in advance."
+      },
+      {
+        "url": "https://robertnyc.com/",
+        "source_date": "Undated restaurant site; accessed 2026-10-16",
+        "quote": "LUNCH: Monday - Friday: 12pm - 3:45pm"
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "The 30-day window supports a Dec. 1 date boundary but not a midnight opening time. No prior NYE lunch sellout report was located."
+  },
+  {
+    "id": "tavern-on-the-green",
+    "item": "Tavern on the Green",
+    "target": "Thu Dec 31 2026 · lunch · 2 people",
+    "release_rule": "The restaurant says holiday reservations can be made at any time of year by phone and are not available online. No fixed release date/time is published.",
+    "book_at_et": null,
+    "sellout_speed": "No NYE lunch sellout timing found. Comparable holiday evidence is limited to Thanksgiving: Eater reported those reservations were gone within minutes of opening two months ahead; that is not evidence for NYE lunch.",
+    "evidence": [
+      {
+        "url": "https://www.tavernonthegreen.com/location/tavern-on-the-green/",
+        "source_date": "Undated restaurant page; accessed 2026-10-16",
+        "quote": "We are happy to book holiday reservations any time of year by phone-online reservations not available."
+      },
+      {
+        "url": "https://ny.eater.com/2024/11/27/24307516/tavern-on-the-green-nyc-thanksgiving-christmas-holidays",
+        "source_date": "2024-11-27",
+        "quote": "reservations are gone within minutes of when they open — two months before the day."
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "The official holiday booking instruction conflicts with a standard OpenTable-style online release assumption: the restaurant directs holiday inquiries to phone. The Thanksgiving sellout report is explicitly a different holiday and must not be generalized to Dec. 31."
+  },
+  {
+    "id": "optional-restaurants",
+    "item": "Optional backups: Stella 34 Trattoria, Toloache 50th St, and Jupiter",
+    "target": "Stella 34: trip dates; Toloache: Fri Jan 1 2027 · 5:00pm; Jupiter: Thu Dec 31 2026 · 1:30pm",
+    "release_rule": "No past-year evidence was found that establishes a specific release rule or how early NYE/Jan. 1 tables at these three backups sell out.",
+    "book_at_et": null,
+    "sellout_speed": "Not found for the requested holiday dates. Existing availability checks are not historical sellout evidence.",
+    "evidence": [
+      {
+        "url": "https://www.stella34.com/",
+        "source_date": "Undated restaurant site; accessed 2026-10-16",
+        "quote": "STELLA 34 TRATTORIA"
+      },
+      {
+        "url": "https://resy.com/cities/new-york-ny/venues/toloache-50th-st",
+        "source_date": "Undated Resy listing; accessed 2026-10-16",
+        "quote": "Resy"
+      },
+      {
+        "url": "https://www.rockefellercenter.com/dine/jupiter",
+        "source_date": "Undated restaurant listing; accessed 2026-10-16",
+        "quote": "Jupiter is open for lunch and dinner Monday through Saturday from 11:30am-10pm."
+      }
+    ],
+    "conclusion_level": "not found",
+    "notes": "These remain lower-priority backups. Earlier current-availability checks found openings for Toloache and Jupiter, but no evidence about past holiday sellout speed."
+  }
+]

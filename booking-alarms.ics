@@ -1,0 +1,176 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC trip//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-trip-0@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261101T140000Z
+DURATION:PT20M
+SUMMARY:Check SUMMIT and the rink: is Jan 2 on sale yet?
+URL:https://summitov.com/tickets/
+DESCRIPTION:https://summitov.com/tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check SUMMIT and the rink: is Jan 2 on sale yet?
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check SUMMIT and the rink: is Jan 2 on sale yet?
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-1@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261108T140000Z
+DURATION:PT20M
+SUMMARY:Check again: SUMMIT and rink Jan 2 tickets
+URL:https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center
+DESCRIPTION:https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check again: SUMMIT and rink Jan 2 tickets
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check again: SUMMIT and rink Jan 2 tickets
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-2@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261202T045000Z
+DURATION:PT20M
+SUMMARY:Din Tai Fung opens at midnight: book Jan 1 1:00pm
+URL:https://dtf.com/en-us/locations/new-york
+DESCRIPTION:https://dtf.com/en-us/locations/new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Din Tai Fung opens at midnight: book Jan 1 1:00pm
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Din Tai Fung opens at midnight: book Jan 1 1:00pm
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-3@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261203T045000Z
+DURATION:PT20M
+SUMMARY:Golden Diner may open at midnight: Resy Jan 2 11am
+URL:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Golden Diner may open at midnight: Resy Jan 2 11am
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Golden Diner may open at midnight: Resy Jan 2 11am
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-4@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261203T145000Z
+DURATION:PT20M
+SUMMARY:Carbone opens 10:00am: Resy Jan 2 7pm
+URL:https://resy.com/cities/new-york-ny/venues/carbone?date=2027-01-02&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/carbone?date=2027-01-02&seats=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Carbone opens 10:00am: Resy Jan 2 7pm
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Carbone opens 10:00am: Resy Jan 2 7pm
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-5@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261204T045000Z
+DURATION:PT20M
+SUMMARY:Golden Diner backup midnight: check Resy Jan 2 11am
+URL:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Golden Diner backup midnight: check Resy Jan 2 11am
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Golden Diner backup midnight: check Resy Jan 2 11am
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-6@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261222T150000Z
+DURATION:PT20M
+SUMMARY:Check NYC Ferry Jan 1 holiday schedule (St. George)
+URL:https://www.ferry.nyc/routes-and-schedules/st-george/
+DESCRIPTION:https://www.ferry.nyc/routes-and-schedules/st-george/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check NYC Ferry Jan 1 holiday schedule (St. George)
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check NYC Ferry Jan 1 holiday schedule (St. George)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-7@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261226T150000Z
+DURATION:PT20M
+SUMMARY:Last day to cancel Bond 45 without a fee
+URL:https://www.bond45ny.com/new-years-eve/
+DESCRIPTION:https://www.bond45ny.com/new-years-eve/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last day to cancel Bond 45 without a fee
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last day to cancel Bond 45 without a fee
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-8@devin
+DTSTAMP:20261016T200000Z
+DTSTART:20261228T150000Z
+DURATION:PT20M
+SUMMARY:Loser's cinnamon roll drop: watch email (Mon/Tue)
+URL:https://www.loserseatinghouse.com/subscribe
+DESCRIPTION:https://www.loserseatinghouse.com/subscribe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Loser's cinnamon roll drop: watch email (Mon/Tue)
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Loser's cinnamon roll drop: watch email (Mon/Tue)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
