@@ -34,7 +34,7 @@ n=0; nowh=''; laterh=''
 for t in now: n+=1; nowh+=item(n,t)
 for t in later: n+=1; laterh+=item(n,t)
 body=f'''<section class="a-section"><p class="a-prose">Everything you need to book, in the order it becomes available. Tick things off as you go: the checkmarks are saved on this device. <strong>Do the "Open now" list this week.</strong> For the release-day items, add the alarms below to your phone calendar.</p>
-<p><button type="button" class="btn2" id="ics">Add booking alarms to my calendar</button> <span class="a-section__note">Downloads a calendar file with alarms 40 and 10 minutes before each release. On iPhone, open it and tap "Add All".</span></p>
+<p><a class="btn2" href="booking-alarms.ics">Add booking alarms to my calendar</a> <span class="a-section__note">Adds alarms 40 and 10 minutes before each release. On iPhone, tap it in Safari, then tap "Add All". Delete any older "NYC trip" alarms first so you don't get doubles.</span></p>
 <p class="a-section__note" id="progress" aria-live="polite"></p></section><hr>
 <section class="a-section"><h2 class="a-section__title">Open now: book this week</h2><ol class="todos">{nowh}</ol></section><hr>
 <section class="a-section"><h2 class="a-section__title">Release days and later deadlines</h2><ol class="todos" start="{len(now)+1}">{laterh}</ol></section><hr>
@@ -46,9 +46,6 @@ var K='nyc-trip-todo-v1',s={{}};try{{s=JSON.parse(localStorage.getItem(K)||'{{}}
 var boxes=document.querySelectorAll('input[data-key]');
 function upd(){{var d=0;boxes.forEach(function(b){{if(b.checked)d++;b.closest('li').classList.toggle('done',b.checked);}});document.getElementById('progress').textContent=d+' of '+boxes.length+' done';}}
 boxes.forEach(function(b){{b.checked=!!s[b.dataset.key];b.addEventListener('change',function(){{s[b.dataset.key]=b.checked;try{{localStorage.setItem(K,JSON.stringify(s));}}catch(e){{}}upd();}});}});upd();
-document.getElementById('ics').addEventListener('click',function(){{
-var blob=new Blob([document.getElementById('icsdata').textContent.trim().replace(/\\n/g,'\\r\\n')],{{type:'text/calendar'}});
-var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='nyc-trip-booking-alarms.ics';document.body.appendChild(a);a.click();a.remove();}});
 }})();
 </script>
 <script id="icsdata" type="text/plain">ICS_PLACEHOLDER</script>

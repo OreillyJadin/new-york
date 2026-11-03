@@ -164,7 +164,7 @@ for r in T:
     key=f'b:{r[2]}:{r[0]}'
     rows.append(f'<li><label><input type="checkbox" data-k="{E(key)}"><span><span class="whenbig">{E("Now" if r[0]=="now" else r[1])}</span><strong>{E(r[3])}</strong> · <span class="for">{E(r[4])}</span><br><small>{E(r[5])}</small> <a href="{E(r[6])}" target="_blank" rel="noopener">{E(r[7])}</a></span></label></li>')
 bookpanel=f'''<section class="dpanel bookp" role="tabpanel" id="p0" aria-labelledby="t0" style="--c:#b45309" hidden>
-<div class="post"><div class="stamp">Booking list</div><h2 class="dtitle">Everything to book</h2><p class="lead">In the order each one opens. Ticks save on this phone and match the ticks on each day's page. Already booked: Stella 34, Bond 45, Del Frisco's, the Rockettes, Carnegie Diner and both hotels.</p></div>
+<div class="post"><div class="stamp">Booking list</div><h2 class="dtitle">Everything to book</h2><p class="lead">In the order each one opens. Ticks save on this phone and match the ticks on each day's page. Already booked: Stella 34, Bond 45, Del Frisco's, the Rockettes, Carnegie Diner and both hotels.</p><p><a class="calbtn" href="booking-alarms.ics">Add booking alarms to my calendar</a></p><p class="lead">Tap it, then tap "Add All". You get alarms 40 and 10 minutes before each booking opens. Delete any older "NYC trip" alarms first so you don't get doubles.</p></div>
 <ol class="todo bigtodo">{"".join(rows)}</ol></section>'''
 tabs=['<button type="button" role="tab" id="t0" aria-controls="p0" aria-selected="false" tabindex="-1" style="--c:#b45309"><span class="tday">To do</span><span class="tdate">Book</span></button>']
 panels=[bookpanel]
