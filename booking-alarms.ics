@@ -4,121 +4,140 @@ PRODID:-//NYC trip//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-trip-0@devin
-DTSTAMP:20261016T200000Z
-DTSTART:20261101T140000Z
+DTSTAMP:20261102T200000Z
+DTSTART:20261103T185000Z
 DURATION:PT20M
-SUMMARY:Check SUMMIT and the rink: is Jan 2 on sale yet?
-URL:https://summitov.com/tickets/
-DESCRIPTION:https://summitov.com/tickets/
+SUMMARY:Carnegie Club opens 2:00pm ET: book Sat Jan 2 Sinatra show
+URL:https://www.carnegie-club.com/
+DESCRIPTION:https://www.carnegie-club.com/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Check SUMMIT and the rink: is Jan 2 on sale yet?
+DESCRIPTION:Carnegie Club opens 2:00pm ET: book Sat Jan 2 Sinatra show
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Check SUMMIT and the rink: is Jan 2 on sale yet?
+DESCRIPTION:Carnegie Club opens 2:00pm ET: book Sat Jan 2 Sinatra show
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-1@devin
-DTSTAMP:20261016T200000Z
-DTSTART:20261108T140000Z
+DTSTAMP:20261102T200000Z
+DTSTART:20261105T150000Z
 DURATION:PT20M
-SUMMARY:Check again: SUMMIT and rink Jan 2 tickets
-URL:https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center
-DESCRIPTION:https://www.rockefellercenter.com/tickets/the-rink-at-rockefeller-center
+SUMMARY:Check SUMMIT: is Jan 2 on sale? Book 4:00pm
+URL:https://summitov.com/tickets/
+DESCRIPTION:https://summitov.com/tickets/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Check again: SUMMIT and rink Jan 2 tickets
+DESCRIPTION:Check SUMMIT: is Jan 2 on sale? Book 4:00pm
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Check again: SUMMIT and rink Jan 2 tickets
+DESCRIPTION:Check SUMMIT: is Jan 2 on sale? Book 4:00pm
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-2@devin
-DTSTAMP:20261016T200000Z
-DTSTART:20261202T045000Z
+DTSTAMP:20261102T200000Z
+DTSTART:20261112T150000Z
 DURATION:PT20M
-SUMMARY:Din Tai Fung opens at midnight: book Jan 1 1:00pm
-URL:https://dtf.com/en-us/locations/new-york
-DESCRIPTION:https://dtf.com/en-us/locations/new-york
+SUMMARY:Check SUMMIT again: Jan 2 4:00pm
+URL:https://summitov.com/tickets/
+DESCRIPTION:https://summitov.com/tickets/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Din Tai Fung opens at midnight: book Jan 1 1:00pm
+DESCRIPTION:Check SUMMIT again: Jan 2 4:00pm
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Din Tai Fung opens at midnight: book Jan 1 1:00pm
+DESCRIPTION:Check SUMMIT again: Jan 2 4:00pm
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-3@devin
-DTSTAMP:20261016T200000Z
+DTSTAMP:20261102T200000Z
 DTSTART:20261203T045000Z
 DURATION:PT20M
-SUMMARY:Golden Diner may open at midnight: Resy Jan 2 11am
-URL:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
-DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+SUMMARY:Golden HOF: Resy Jan 2 1:30pm should open
+URL:https://resy.com/cities/new-york-ny/venues/golden-hof?date=2027-01-02&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-hof?date=2027-01-02&seats=2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Golden Diner may open at midnight: Resy Jan 2 11am
+DESCRIPTION:Golden HOF: Resy Jan 2 1:30pm should open
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Golden Diner may open at midnight: Resy Jan 2 11am
+DESCRIPTION:Golden HOF: Resy Jan 2 1:30pm should open
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-4@devin
-DTSTAMP:20261016T200000Z
-DTSTART:20261203T145000Z
+DTSTAMP:20261102T200000Z
+DTSTART:20261203T140000Z
 DURATION:PT20M
-SUMMARY:Carbone opens 10:00am: Resy Jan 2 7pm
-URL:https://resy.com/cities/new-york-ny/venues/carbone?date=2027-01-02&seats=2
-DESCRIPTION:https://resy.com/cities/new-york-ny/venues/carbone?date=2027-01-02&seats=2
+SUMMARY:Golden HOF morning check: Resy Jan 2 1:30pm
+URL:https://resy.com/cities/new-york-ny/venues/golden-hof?date=2027-01-02&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-hof?date=2027-01-02&seats=2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Carbone opens 10:00am: Resy Jan 2 7pm
+DESCRIPTION:Golden HOF morning check: Resy Jan 2 1:30pm
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Carbone opens 10:00am: Resy Jan 2 7pm
+DESCRIPTION:Golden HOF morning check: Resy Jan 2 1:30pm
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-5@devin
-DTSTAMP:20261016T200000Z
+DTSTAMP:20261102T200000Z
 DTSTART:20261204T045000Z
 DURATION:PT20M
-SUMMARY:Golden Diner backup midnight: check Resy Jan 2 11am
-URL:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
-DESCRIPTION:https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2
+SUMMARY:Cafe Mogador: Resy Jan 3 7:45pm should open
+URL:https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg?date=2027-01-03&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg?date=2027-01-03&seats=2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Golden Diner backup midnight: check Resy Jan 2 11am
+DESCRIPTION:Cafe Mogador: Resy Jan 3 7:45pm should open
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Golden Diner backup midnight: check Resy Jan 2 11am
+DESCRIPTION:Cafe Mogador: Resy Jan 3 7:45pm should open
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-trip-6@devin
-DTSTAMP:20261016T200000Z
+DTSTAMP:20261102T200000Z
+DTSTART:20261204T140000Z
+DURATION:PT20M
+SUMMARY:Cafe Mogador morning check: Resy Jan 3 7:45pm
+URL:https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg?date=2027-01-03&seats=2
+DESCRIPTION:https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg?date=2027-01-03&seats=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cafe Mogador morning check: Resy Jan 3 7:45pm
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cafe Mogador morning check: Resy Jan 3 7:45pm
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-7@devin
+DTSTAMP:20261102T200000Z
 DTSTART:20261222T150000Z
 DURATION:PT20M
 SUMMARY:Check NYC Ferry Jan 1 holiday schedule (St. George)
@@ -136,8 +155,8 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-trip-7@devin
-DTSTAMP:20261016T200000Z
+UID:nyc-trip-8@devin
+DTSTAMP:20261102T200000Z
 DTSTART:20261226T150000Z
 DURATION:PT20M
 SUMMARY:Last day to cancel Bond 45 without a fee
@@ -155,21 +174,40 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-trip-8@devin
-DTSTAMP:20261016T200000Z
+UID:nyc-trip-9@devin
+DTSTAMP:20261102T200000Z
 DTSTART:20261228T150000Z
 DURATION:PT20M
-SUMMARY:Loser's cinnamon roll drop: watch email (Mon/Tue)
-URL:https://www.loserseatinghouse.com/subscribe
-DESCRIPTION:https://www.loserseatinghouse.com/subscribe
+SUMMARY:Check Jan 1-2 hours (bagels, Wah Fung, Mei Lai Wah, Mure & Grand, LEGO, A&F) and Epiphany Mass times
+URL:https://www.saintpatrickscathedral.org/
+DESCRIPTION:https://www.saintpatrickscathedral.org/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Loser's cinnamon roll drop: watch email (Mon/Tue)
+DESCRIPTION:Check Jan 1-2 hours (bagels, Wah Fung, Mei Lai Wah, Mure & Grand, LEGO, A&F) and Epiphany Mass times
 TRIGGER:-PT30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Loser's cinnamon roll drop: watch email (Mon/Tue)
+DESCRIPTION:Check Jan 1-2 hours (bagels, Wah Fung, Mei Lai Wah, Mure & Grand, LEGO, A&F) and Epiphany Mass times
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-trip-10@devin
+DTSTAMP:20261102T200000Z
+DTSTART:20270101T170000Z
+DURATION:PT20M
+SUMMARY:Check the Carnegie Club showtime for tomorrow
+URL:https://www.carnegie-club.com/
+DESCRIPTION:https://www.carnegie-club.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check the Carnegie Club showtime for tomorrow
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check the Carnegie Club showtime for tomorrow
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT

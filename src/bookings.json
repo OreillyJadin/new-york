@@ -1,24 +1,21 @@
 [
  {
-  "id": "1-river-cafe",
-  "item": "River Café (1 Water St, Brooklyn)",
-  "target": "Sun Jan 3 · 7:00pm · 2 people",
-  "platform": "OpenTable (official restaurant site links to online reservations)",
-  "book_url": "https://www.opentable.com/r/the-river-cafe-brooklyn",
+  "id": "1-cafe-mogador",
+  "item": "Café Mogador Williamsburg (133 Wythe Ave)",
+  "target": "Sun Jan 3 · 7:45pm · 2 people",
+  "platform": "Resy",
+  "book_url": "https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg?date=2027-01-03&seats=2",
   "opens_at_iso": null,
-  "opens_label": "Open now",
-  "rule": "The restaurant says bookings can be made up to one year ahead. The target date therefore entered the published booking horizon on Jan 3, 2026; no release hour is published.",
-  "availability": "Could not be checked live. Per the request, OpenTable automated availability was not queried; current inventory for Jan 3 at 7:00pm is unknown.",
-  "price": "$215 per person for the published three-course prix-fixe dinner ($430 for two before any extras).",
-  "cancellation": "The official reservation page says some reservations may require a small deposit, but gives no amount or cancellation deadline. Check the terms attached to the specific reservation.",
-  "tips": "For a party of two, use the online booking path; parties of five or more must call.",
+  "opens_label": "Around Fri Dec 4 (30 days ahead)",
+  "rule": "Resy's calendar ran exactly 30 days ahead on Nov 2, 2026; the venue says up to four weeks. Release time of day isn't posted.",
+  "availability": "Sunday dinner slots ran 5:30pm to 10:00pm on a sample Sunday.",
+  "price": "À la carte.",
+  "cancellation": "No fee posted on Resy.",
+  "tips": "Walk-ins always welcome; they text you when a table is ready.",
   "sources": [
-   "https://rivercafe.com/reservations/",
-   "https://rivercafe.com/dinner-menu/",
-   "https://www.opentable.com/r/the-river-cafe-brooklyn"
-  ],
-  "confidence": "verified",
-  "notes": "The one-year window and $215 dinner price are stated by the restaurant. The release date is calculated from that window; no exact release time is stated."
+   "https://www.cafemogador.com/",
+   "https://resy.com/cities/new-york-ny/venues/cafe-mogador-williamsburg"
+  ]
  },
  {
   "id": "2-bond-45-nye",
@@ -150,28 +147,22 @@
   "notes": "The 30-day/10am drop comes from independent reservation guides, not the restaurant's official terms. GDA priority/Notify are Resy benefits; an eligible card or membership is required, and no notification was set."
  },
  {
-  "id": "7-golden-diner",
-  "item": "Golden Diner (123 Madison St)",
-  "target": "Sat Jan 2 · 11:00am · 2 people",
+  "id": "7-golden-hof",
+  "item": "Golden HOF (16 W 48th St)",
+  "target": "Sat Jan 2 · 1:30pm · 2 people",
   "platform": "Resy",
-  "book_url": "https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2",
+  "book_url": "https://resy.com/cities/new-york-ny/venues/golden-hof?date=2027-01-02&seats=2",
   "opens_at_iso": null,
-  "opens_label": "Unknown — secondary sources conflict on the exact calendar date",
-  "rule": "The official site confirms booking on Resy but does not expose a release rule in its current public text. Independent guides report midnight and a roughly 30-day window, but disagree about whether the target appears 30 or 29 calendar days before service (and one cites another 29-day/10am report). Conditional calculations are Dec 3, 12:00am ET for a literal 30-day rule, or Dec 4, 12:00am ET for an inclusive 30-date calendar; do not treat either as confirmed.",
-  "availability": "Resy's venue-search API returned no Jan 2 party-of-two slots at the 2026-10-16 check (about 4:34pm ET). The date is beyond the commonly reported 30-day window, so no returned slots are not a sold-out signal.",
-  "price": "À la carte; no fixed booking or meal price was published in the official booking/FAQ pages reviewed.",
-  "cancellation": "An independent guide reports a card is required and a $50-per-person-plus-tax fee applies for cancellation less than two hours before the reservation. Golden Diner's current public page does not state this fee; verify Resy's final terms.",
-  "tips": "Golden Diner says weekend brunch is limited to parties of six, holds reservations for 10 minutes, and advises against relying on walk-ins: its FAQ reports an average wait around two hours by 11am.",
+  "opens_label": "Around Thu Dec 3 (30 days ahead)",
+  "rule": "Resy's calendar for Golden HOF ran exactly 30 days ahead on Nov 2, 2026. The release time of day isn't posted.",
+  "availability": "Saturday lunch slots ran from 11:00am to 3:00pm on a sample Saturday.",
+  "price": "À la carte.",
+  "cancellation": "$50 per person for cancelling within 6 hours (Golden HOF site).",
+  "tips": "Golden HOF says it always holds tables for walk-ins.",
   "sources": [
-   "https://www.goldendinerny.com/dine",
-   "https://www.goldendinerny.com/faq",
-   "https://resy.com/cities/new-york-ny/venues/golden-diner?date=2027-01-02&seats=2",
-   "https://itsadate.nyc/restaurants/golden-diner-reservations",
-   "https://guides.seatswiper.com/how-to-get-a-reservation-at-golden-diner",
-   "https://snagres.com/guides/how-to-get-a-golden-diner-reservation"
-  ],
-  "confidence": "unknown",
-  "notes": "Because the official release rule could not be confirmed from the current restaurant page and secondary accounts disagree, opens_at_iso is intentionally null rather than guessing."
+   "https://www.goldenhof.com/dine",
+   "https://resy.com/cities/new-york-ny/venues/golden-hof"
+  ]
  },
  {
   "id": "8-summit",

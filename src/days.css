@@ -35,7 +35,7 @@ body{background:var(--paper)!important;color:var(--ink)}
 .water{fill:var(--water)}.land{fill:var(--land);stroke:var(--landstroke);stroke-width:.7;vector-effect:non-scaling-stroke}
 .pinc{stroke:#fff;stroke-width:2;vector-effect:non-scaling-stroke}.pinn{fill:#fff;text-anchor:middle;font-weight:800;font-family:system-ui,sans-serif}
 .dpin{cursor:pointer}.dpin:focus-visible .pinc{stroke:var(--taxi);stroke-width:4}.dpin.is-done{opacity:.4}.dpin.is-now .pinc{stroke:var(--taxi);stroke-width:4}
-.lbl{fill:var(--ink);font-weight:650;font-family:system-ui,sans-serif}.halo,.halo tspan{fill:var(--land)!important;stroke:var(--land);stroke-width:4px;stroke-linejoin:round}.lt{font-weight:800}
+.lbl{fill:var(--ink);font-weight:650;font-family:system-ui,sans-serif}.halo,.halo tspan{fill:var(--land)!important;stroke:var(--land);stroke-linejoin:round}.lt{font-weight:800}
 .mapnote{font-size:12px;color:var(--muted);margin:0 4px}
 .h3{font-family:var(--disp);font-size:24px;margin:0 0 6px}
 .stops{list-style:none;margin:0;padding:0}
@@ -68,3 +68,7 @@ body{background:var(--paper)!important;color:var(--ink)}
 .pn{color:#1c1917;border-color:#1c1917}
 @media print{.dtabs,.pnav,.live,.done{display:none}.dpanel[hidden]{display:block!important}.dpanel{break-before:page}.maps{position:static}}
 @media (prefers-reduced-motion:reduce){.stop .row{transition:none}}
+
+.tiles{filter:saturate(.75)}.tiles image{pointer-events:none}.mapattr{font-size:10px;color:var(--muted);text-align:right;padding:4px 4px 0}
+:root[data-theme=dark] .tiles{filter:invert(1) hue-rotate(180deg) brightness(.85)}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) .tiles{filter:invert(1) hue-rotate(180deg) brightness(.85)}}

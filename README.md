@@ -5,7 +5,7 @@ Trip website, served by GitHub Pages at https://oreillyjadin.github.io/new-york/
 - `index.html`: day-by-day plan with maps, times, hints and to-dos (the main page)
 - `map.html`: full-trip map with every stop
 - `bookings.html`: booking to-do list in the order things open
-- `itinerary.html`: printable itinerary
+- `itinerary.html`: redirects to the main page (the old printable version is retired)
 - `booking-alarms.ics`: calendar alarms for every booking release
 - `trip-brief-for-claude.md`: the whole current plan as text, to paste into another AI chat
 

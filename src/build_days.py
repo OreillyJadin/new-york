@@ -6,20 +6,20 @@ COL=['#1d3a8a','#d6336c','#2f7d4f','#c2410c','#57534e']
 DATES=['2026-12-31','2027-01-01','2027-01-02','2027-01-03','2027-01-04']
 META=[
  dict(eyebrow="New Year's Eve",long='Thursday, December 31',hotel='Hilton Garden Inn Times Square South',art='nye',
-      lead="Land, drop bags, then the holiday classics: Macy's windows, an Empire State view lunch, the tree, Fifth Ave and Central Park at sunset. Then dress up for Bond 45 and a midnight birthday toast.",
+      lead="Land, drop bags, then the holiday classics: Macy's windows, a booked 1:30 lunch at Stella 34 with Empire State views, the tree, Jellycat Diner, the LEGO Store, Coach (optional), Abercrombie & Fitch, Trump Tower, Fifth Ave windows and Central Park at sunset. Then dress up for Bond 45 and a midnight birthday toast.",
       wear='Warm coat and walking shoes by day. Festive cocktail wear for Bond 45, plus a coat you can check.',
       sticker='Midnight toast'),
  dict(eyebrow='Your birthday',long='Friday, January 1',hotel='Hilton Garden Inn Times Square South',art='bday',
-      lead='Bagels, two ferries past the Statue of Liberty, the Charging Bull, a Din Tai Fung birthday lunch, Times Square in daylight, Bryant Park, then Toloache and the Rockettes. Early bedtime.',
+      lead='Bagels, two ferries past the Statue of Liberty, the Charging Bull, a Wall Street walk, a free afternoon in Chinatown, Little Italy and SoHo, then a 5:00 birthday dinner at Del Frisco\'s and the Rockettes. Early bedtime.',
       wear='Warm layers and a hat for the ferry decks, which get windy. Dressy casual for the Rockettes.',
       sticker='Happy birthday!'),
  dict(eyebrow='The big day out',long='Saturday, January 2',hotel='Hilton Garden Inn Times Square South',art='mid',
-      lead='First-session skating at Rockefeller, the 9/11 Memorial, Golden Diner, Chinatown and Little Italy, SoHo shopping, Grand Central, Summit at sunset, and dinner at Carbone.',
-      wear="Pants or tights for Summit's mirrored floors (no short skirts, no stilettos). Carbone: no shorts or open-toed shoes, and dressy is the norm.",
-      sticker='Skate · shop · Summit'),
+      lead='Morning skating at Rockefeller, a guided tour of the 9/11 Museum, a 1:30 lunch at Golden HOF across from Rockefeller Center, an optional AUTOPHOTO stop, Summit at sunset, then Carnegie Diner and the Sinatra show at the Carnegie Club.',
+      wear="Pants or tights for Summit's mirrored floors (no short skirts, no stilettos). Business casual for the Carnegie Club (check its dress code).",
+      sticker='Skate · Summit · Sinatra'),
  dict(eyebrow='Brooklyn',long='Sunday, January 3',hotel='Hampton Inn Brooklyn Downtown',art='bk',
-      lead="Early Mass at St. Patrick's, coffee across the street, then Brooklyn: donuts, the Promenade, the Brooklyn Bridge walk, Juliana's pizza, DUMBO and Pebble Beach at sunset, and River Café.",
-      wear="Comfortable shoes for the bridge. River Café is dressy, and jackets are required for men.",
+      lead="Early Mass at St. Patrick's, coffee across the street, then Brooklyn: donuts, the Promenade, the Brooklyn Bridge walk, Juliana's pizza, a Brooklyn Bridge Park stroll, DUMBO and Pebble Beach at sunset, time at the hotel, and Moroccan dinner at Café Mogador in Williamsburg at 7:45.",
+      wear="Comfortable shoes for the bridge. Café Mogador is casual.",
       sticker='Bridge at sunset'),
  dict(eyebrow='Heading home',long='Monday, January 4',hotel='Home',art='fly',
       lead='A scheduled Uber from the Brooklyn hotel to LaGuardia for the 10:30am flight.',
@@ -30,10 +30,10 @@ for r in T: TB.setdefault(r[2],{})[r[0]]=r
 def bk(i,prefer='now'):
     v=TB[i]; return v.get(prefer) or v.get('later') or v.get('now')
 TD={
- 0:[('b','x-stella34'),('b','2-bond-45-nye'),('b','12a-uber-lga-arrival'),('d',"Screenshot the Bond 45 confirmation email"),('d',"Pack the NYE outfit in your carry-on in case bags are late"),('d',"Ask the front desk to hold your bags at 11")],
- 1:[('b','5-din-tai-fung','later'),('b','3-toloache'),('b','13a-nyc-ferry-st-george'),('x','Rockettes, 7:00pm','Booked'),('d',"Check Utopia's Jan 1 hours on Google"),('d','Buy NYC Ferry tickets in the app ($4.50 each)'),('d','Rockettes tickets ready on your phone')],
- 2:[('b','10-rockefeller-rink'),('b','9-911-museum'),('b','7-golden-diner','later'),('b','8-summit'),('b','6-carbone','later'),('b','11-losers-roll','later'),('d','Rink, museum and Summit tickets ready on your phone'),('d','Pants or tights for Summit')],
- 3:[('b','1-river-cafe'),('d',"Check the Epiphany Sunday Mass times that week"),('d','Pack your bags before Mass'),('d','Book the 9:00 Uber to Brooklyn in the app'),('d','Confirm the DUMBO stop in the NYC Ferry app'),('d','Jacket for River Café')],
+ 0:[('x','Stella 34, 1:30pm','Booked'),('x','Bond 45 NYE, 6:30pm','Booked'),('b','x-jellycat'),('b','12a-uber-lga-arrival'),('d',"Screenshot the Bond 45 confirmation email"),('d',"Pack the NYE outfit in your carry-on in case bags are late"),('d',"Ask the front desk to hold your bags at noon")],
+ 1:[('x',"Del Frisco's, 5:00pm",'Booked'),('x','Rockettes, 7:00pm','Booked'),('b','13a-nyc-ferry-st-george'),('d',"Check Jan 1 hours for Utopia, Wah Fung, Mei Lai Wah and Mure & Grand"),('d','Buy NYC Ferry tickets in the app ($4.50 each)'),('d','Rockettes tickets ready on your phone')],
+ 2:[('x','Carnegie Diner, 6:15pm','Booked'),('b','10-rockefeller-rink'),('b','9-911-museum'),('b','7-golden-hof','later'),('b','8-summit'),('b','x-carnegie-club'),('d','Rink, museum and Summit tickets ready on your phone'),('d','Pants or tights for Summit'),('d','Check the Carnegie Club showtime the day before')],
+ 3:[('b','1-cafe-mogador','later'),('d',"Check the Epiphany Sunday Mass times that week"),('d','Pack your bags before Mass'),('d','Book the 10:00 Uber to Brooklyn in the app'),('d','Confirm the DUMBO stop in the NYC Ferry app')],
  4:[('b','12b-uber-brooklyn-departure'),('d','Pack the night before'),('d','Check the flight status at 7am')],
 }
 MTA={'A':'#0039A6','C':'#0039A6','E':'#0039A6','B':'#FF6319','D':'#FF6319','F':'#FF6319','M':'#FF6319','N':'#FCCC0A','Q':'#FCCC0A','R':'#FCCC0A','W':'#FCCC0A','1':'#EE352E','2':'#EE352E','3':'#EE352E','4':'#00933C','5':'#00933C','6':'#00933C','7':'#B933AD','G':'#6CBE45','L':'#A7A9AC'}
@@ -55,7 +55,7 @@ def lab(x,y,fs,anc,tm,name,col,two=False):
     if two: inner=lambda c:f'<tspan class="lt" {c}>{E(tm)}</tspan><tspan x="{x:.2f}" dy="1.1em">{E(name)}</tspan>'
     else: inner=lambda c:f'<tspan class="lt" {c}>{E(tm)}</tspan> {E(name)}'
     a=f'x="{x:.2f}" y="{y:.2f}" font-size="{fs:.2f}" text-anchor="{anc}"'
-    return f'<text {a} class="lbl halo" aria-hidden="true">{inner("")}</text><text {a} class="lbl">{inner(f"fill={chr(34)}{col}{chr(34)}")}</text>'
+    return f'<text {a} class="lbl halo" style="stroke-width:{fs*0.3:.3f}" aria-hidden="true">{inner("")}</text><text {a} class="lbl">{inner(f"fill={chr(34)}{col}{chr(34)}")}</text>'
 def mapsvg(di,d,cap,nums):
     col=COL[di]; S=[s for s in d['stops'] if s['n'] in nums]
     P={s['n']:xy(s['lat'],s['lon']) for s in S}
@@ -116,9 +116,9 @@ def mapsvg(di,d,cap,nums):
     for a,b in zip(st,st[1:]):
         if a['n'] in nums and b['n'] in nums: seg.append(f'M{P[a["n"]][0]:.2f},{P[a["n"]][1]:.2f} L{P[b["n"]][0]:.2f},{P[b["n"]][1]:.2f}')
     return (f'<figure class="mapwrap"><div class="mapcap">{E(cap)}</div><svg class="dmap" viewBox="{bx0:.1f} {by0:.1f} {W_:.1f} {H_:.1f}" role="img" aria-label="{E(cap)} map, stops {", ".join(map(str,sorted(nums)))}">'
-            f'<rect x="{bx0-50:.0f}" y="{by0-50:.0f}" width="{W_+100:.0f}" height="{H_+100:.0f}" class="water"/><use href="#landshapes"/>'
+            f'<rect x="{bx0-50:.0f}" y="{by0-50:.0f}" width="{W_+100:.0f}" height="{H_+100:.0f}" class="water"/><use href="#landshapes"/><g class="tiles"></g>'
             f'<path d="{" ".join(seg)}" fill="none" stroke="{col}" stroke-width="{r*0.32:.2f}" stroke-dasharray="{r*0.9:.2f} {r*0.6:.2f}" stroke-linecap="round"/>'
-            +''.join(l for l in labels if l.startswith('<line'))+''.join(pins)+''.join(l for l in labels if not l.startswith('<line'))+'</svg></figure>')
+            +''.join(l for l in labels if l.startswith('<line'))+''.join(pins)+''.join(l for l in labels if not l.startswith('<line'))+'</svg><div class="mapattr">Map © OpenStreetMap contributors</div></figure>')
 # --- art ---
 def bld(x,w,hh,base=110): return f'<rect x="{x}" y="{base-hh}" width="{w}" height="{hh}"/>'
 def skyline(extra=''):
@@ -164,7 +164,7 @@ for r in T:
     key=f'b:{r[2]}:{r[0]}'
     rows.append(f'<li><label><input type="checkbox" data-k="{E(key)}"><span><span class="whenbig">{E("Now" if r[0]=="now" else r[1])}</span><strong>{E(r[3])}</strong> · <span class="for">{E(r[4])}</span><br><small>{E(r[5])}</small> <a href="{E(r[6])}" target="_blank" rel="noopener">{E(r[7])}</a></span></label></li>')
 bookpanel=f'''<section class="dpanel bookp" role="tabpanel" id="p0" aria-labelledby="t0" style="--c:#b45309" hidden>
-<div class="post"><div class="stamp">Booking list</div><h2 class="dtitle">Everything to book</h2><p class="lead">In the order each one opens. Ticks save on this phone and match the ticks on each day's page. Nothing is booked yet except the Rockettes.</p></div>
+<div class="post"><div class="stamp">Booking list</div><h2 class="dtitle">Everything to book</h2><p class="lead">In the order each one opens. Ticks save on this phone and match the ticks on each day's page. Already booked: Stella 34, Bond 45, Del Frisco's, the Rockettes, Carnegie Diner and both hotels.</p></div>
 <ol class="todo bigtodo">{"".join(rows)}</ol></section>'''
 tabs=['<button type="button" role="tab" id="t0" aria-controls="p0" aria-selected="false" tabindex="-1" style="--c:#b45309"><span class="tday">To do</span><span class="tdate">Book</span></button>']
 panels=[bookpanel]
@@ -190,7 +190,7 @@ for di,(d,m) in enumerate(zip(data,META)):
 <div><h3 class="h3">The plan</h3><ol class="stops">{"".join(items)}</ol></div></div>
 <div class="extras"><div class="xcard"><h3>To do</h3>{todo_html(di)}</div><div class="xcard"><h3>What to wear</h3><p>{E(m["wear"])}</p></div></div>
 <nav class="pnav" aria-label="Day navigation">{nav}</nav></section>''')
-CSS=open('days.css').read(); JS=open('days.js').read()
+CSS=open('days.css').read(); JS=open('days.js').read()+'\n'+open('tiles.js').read()
 checker='<svg class="checker" viewBox="0 0 240 8" preserveAspectRatio="none" aria-hidden="true">'+''.join(f'<rect x="{i*8}" y="{(i%2)*4}" width="8" height="4"/>' for i in range(30))+'</svg>'
 body=('<style>'+CSS+'</style><div class="trip">'
  '<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="landshapes">'+''.join(f'<path d="{p}" class="land"/>' for p in paths)+'</g></defs></svg>'
